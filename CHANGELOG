@@ -1,3 +1,7 @@
+* Tue Mar 28 2023 Martin Gansser <martinkg AT fedoraproject.org> - 44
+- Port to meson build system
+- Add gnome 44 Support
+
 * Sun 30 May 2021 Amir Hedayaty <hedayaty AT gnome DOT COM>- 40
 - Support gnome 40
 - Fix Pref bug
@@ -7,7 +11,6 @@
 - Upgrade to 3.34
 - Impalement HiDPI mode
 - Get rid of NM hack
-
 
 * Tue 30 Apt 2019 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.32
 Upgrade to be compatible 3.32

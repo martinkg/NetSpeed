@@ -4,23 +4,15 @@
 
 * Use middle click to toggle showing sum.
 
-* If you are getting it from source:
-    - to install
-    ```make install```
+### Installation
 
-    - to enable
-    ```make enable```
+```bash
+git clone https://github.com/martinkg/NetSpeed.git
+meson Netspeed /tmp/g-s-NetSpeed-build
+ninja -C /tmp/g-s-NetSpeed-build install
+gnome-extensions enable netspeed@hedayaty.gmail.com
+```
 
-    - to disable
-    ```make disable```
+Under X11, you may need to restart GNOME Shell (<kbd>Alt</kbd>+<kbd>F2</kbd>, <kbd>r</kbd>, <kbd>⏎</kbd>)
+after that. Under Wayland you need to logout and login again.
 
-    - to reload
-    ```make reload```
-
-
-
-### Install
-
-<a href="https://extensions.gnome.org/extension/104/netspeed/" >
-    <img src="media/Gnome_logo.svg" width="120px"/>
-</a>
