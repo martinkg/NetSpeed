@@ -1,7 +1,7 @@
 project('gnome-shell-extension-netspeed',
   version : '44',
   meson_version : '>= 0.53',
-  license: 'GPL2',
+  license: 'GPLv3+',
 )
 
 gnome = import ('gnome')
