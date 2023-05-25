@@ -124,8 +124,9 @@ var NetSpeed = class NetSpeed {
             m_digits -= 2;
         else if (amount >= 10)
             m_digits -= 1;
+
         return {
-            text: amount.toFixed(m_digits - 1),
+            text: amount.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: m_digits - 1 }),
             unit: (this.use_bytes ? byte_speed_map : bit_speed_map)[unit]
         };
     }
@@ -365,12 +366,14 @@ var NetSpeed = class NetSpeed {
         this._saving = 0;
         this._load();
 
+        this._updateDefaultGw();
+
         this._changed = this._setting.connect('changed', Lang.bind(this, this._reload));
         this._timerid = Mainloop.timeout_add(this.timer, Lang.bind(this, this._update));
         this._status_icon = new NetSpeedStatusIcon.NetSpeedStatusIcon(this);
         let placement = this._setting.get_string('placement');
         Panel.addToStatusArea('netspeed', this._status_icon, 0, placement);
-        this._updateDefaultGw();
+
 
     }
 
