@@ -1,3 +1,6 @@
+* Sun Apr 28 2024 Martin Gansser <martinkg@fedoraproject.org> - 46
+- Add gnome 46 Support
+
 * Tue Mar 28 2023 Martin Gansser <martinkg AT fedoraproject.org> - 44
 - Port to meson build system
 - Add gnome 44 Support

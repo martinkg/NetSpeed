@@ -1,5 +1,5 @@
 project('gnome-shell-extension-netspeed',
-  version : '44',
+  version : '46',
   meson_version : '>= 0.53',
   license: 'GPLv3+',
 )
