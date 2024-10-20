@@ -8,7 +8,7 @@
   "sourceType": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hedayaty/NetSpeed.git"
+    "url": "git+https://github.com/martinkg/NetSpeed.git"
   },
   "keywords": [
     "gnome",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/hedayaty/NetSpeed/issues"
   },
-  "homepage": "https://github.com/hedayaty/NetSpeed#readme",
+  "homepage": "https://github.com/martinkg/NetSpeed#readme",
   "devDependencies": {
     "eslint": "^8.56.0"
   }
